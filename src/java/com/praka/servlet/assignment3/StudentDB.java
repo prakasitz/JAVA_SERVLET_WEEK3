@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class StudentDB {
     private static ArrayList<Student> studentList;
     
-    static {
+    static { //เมื่อคลาสนี้มีการอ้างถึง ตัวนี้จะทำงาน
         studentList = new ArrayList<>();
         studentList.add(new Student("100", "John", "Doe"));
         studentList.add(new Student("200", "Jane", "Doe"));
